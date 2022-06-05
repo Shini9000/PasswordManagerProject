@@ -1,9 +1,6 @@
 import string
 import random
 import time
-import colorama
-from colorama import Fore, Back, Style
-colorama.init(autoreset=True)
 
 print("Welcome to the PasswordManager Application!"
       "\nFor more information please go to the github @"
@@ -85,21 +82,21 @@ while True:
             letters = string.ascii_uppercase
             result_string = ''.join((random.choice(letters) for i in range(int(input("Select a password length: ")))))
             result_string.startswith("\n")
-            print("\n" + Fore.GREEN + result_string + "\n")
+            print("\n" + result_string + "\n")
 
         elif selection == 2:
             print("selected 2")
             letters = string.ascii_lowercase
             result_string = ''.join((random.choice(letters) for i in range(int(input("Select a password length: ")))))
             result_string.startswith("\n")
-            print("\n" + Fore.GREEN + result_string + "\n")
+            print("\n" + result_string + "\n")
 
         elif selection == 3:
             print("selected 3")
             numbers = string.digits
             result_string = ''.join((random.choice(numbers) for i in range(int(input("Select a password length: ")))))
             result_string.startswith("\n")
-            print("\n" + Fore.GREEN + result_string + "\n")
+            print("\n" + result_string + "\n")
 
         elif selection == 4:
             print("selected 4")
@@ -107,7 +104,7 @@ while True:
             result_string = ''.join(
                 (random.choice(generic_letters) for i in range(int(input("Select a password length: ")))))
             result_string.startswith("\n")
-            print("\n" + Fore.GREEN + result_string + "\n")
+            print("\n" + result_string + "\n")
 
         elif selection == 5:
             print("selected 5")
@@ -118,7 +115,7 @@ while True:
             result_string = ''.join(
                 (random.choice(string_line) for i in range(int(input("Select a password length: ")))))
             result_string.startswith("\n")
-            print("\n" + Fore.GREEN + result_string + "\n")
+            print("\n" + result_string + "\n")
 
             # Check if password meets requirements
         if input("Does this password fulfill the requirements?"
