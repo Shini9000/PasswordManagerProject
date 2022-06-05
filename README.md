@@ -24,3 +24,5 @@ Choose an option:
 4. Mix "  # Ab3
 5. GenericPassword (Cap,Num and Sym"  # Ab3!
 6. Debug(Unsafe size) "  # Size of 200000 (Not implemented)
+
+Please report any bugs if you find any.
