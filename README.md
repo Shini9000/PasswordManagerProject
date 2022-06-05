@@ -17,7 +17,7 @@ Choose an option:
     Delete an account...
 6. Exit Application
 
-
+-----
 1. Uppercase "  # ABC
 2. Lowercase "  # abc
 3. Numbers "  # 123
